@@ -11,3 +11,5 @@
 - ADR-0004 (architecture de connaissances v1) + `scripts/index-vault.py`
   (index SQLite FTS5 sur research/learning/observatory, testé : 16 notes,
   recherche full-text fonctionnelle).
+- ADR-0005 (mémoire) : mémoire agent = système auto Claude Code (rien à
+  construire), gap de portabilité noté dans disaster-recovery.md.

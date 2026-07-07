@@ -9,11 +9,14 @@
 - Procédure de reprise après réinstallation (`docs/disaster-recovery.md`)
 - ADR-0004 : architecture de connaissances v1 (vault existant + index SQLite FTS5)
 - `scripts/index-vault.py` — indexe research/learning/observatory, testé (16 notes, recherche full-text OK)
+- ADR-0005 : mémoire (agent = système auto Claude Code, contenu = ADR-0004)
 
-## À venir
+## Ordre retenu pour la suite du backlog
 
-- Attaquer les points restants du backlog (`docs/brainstorm-backlog.md`)
+Mémoire (fait) → Infra & hébergement → Sécurité & secrets →
+Automatisation → Interface/UX → Règle de promotion Lab→Core
+(logique de dépendances : fondations avant automatisation/UX construites dessus)
 
 ## TODO
 
-- Prioriser quel point du backlog attaquer ensuite
+- Infra & hébergement (backlog #4)

@@ -32,6 +32,11 @@ listées ici.
    héritée d'Orion, voir CLAUDE.md racine). Rien à récupérer ici par
    construction ; tout secret réel vit ailleurs (gestionnaire dédié, pas
    ce repo).
+6. **Mémoire agent Claude Code** — `~/.claude/projects/<slug>/memory/`
+   (préférences utilisateur, feedback, contexte accumulé) vit au niveau
+   utilisateur de la machine, hors git. Perdue à une réinstallation
+   complète — se reconstruit à l'usage, ce n'est pas une source de
+   vérité (voir [ADR-0005](../adr/0005-memoire.md)).
 
 ## Procédure de reprise (résumé)
 

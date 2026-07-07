@@ -11,10 +11,10 @@ Ordre indicatif, pas figé.
 - [ ] Réévaluer si le volume grossit fortement ou qu'un besoin de graphe/liens apparaît
 
 ## 2. Système de mémoire (agent + perso)
-- [ ] Voir ce qu'Orion utilise déjà (MCP `memory`, `sqlite`) — réutilisable ?
-- [ ] Définir ce que "mémoire Afkar" doit retenir (idées, décisions, sources)
-- [ ] Comparer approches (fichiers plats vs graph vs vector)
-- [ ] Décider + ADR
+- [x] Décidé — voir [ADR-0005](../adr/0005-memoire.md) : mémoire agent =
+  système auto de Claude Code (rien à construire) ; mémoire de
+  contenu/décisions = déjà couverte par ADR-0004 + les ADR eux-mêmes
+- [ ] Gap de portabilité noté dans disaster-recovery.md (mémoire agent hors git)
 
 ## 3. Écosystème d'agents Afkar
 - [x] Premier état des lieux fait — voir [ADR-0003](../adr/0003-agents-et-outils.md)
