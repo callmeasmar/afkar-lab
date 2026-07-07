@@ -30,4 +30,5 @@
 
 ## TODO
 
-- Backlog v2 (points 10-18, `docs/brainstorm-backlog.md`) — choisir le prochain
+- Backlog v2 (points 10-19, `docs/brainstorm-backlog.md`) — choisir le prochain
+- Point 19 (crédits Google Cloud ~260€) possiblement urgent si date d'expiration proche

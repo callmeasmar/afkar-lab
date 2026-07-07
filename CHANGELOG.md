@@ -24,3 +24,4 @@
   d'évolution (`sqlite-vec`) si besoin de rappel flou un jour.
 - Backlog v2 (points 10-18) : LLMs, UX, observabilité, observatoire,
   idées futures, suivi sécurité/infra/automatisation, premier prototype.
+- Point 19 ajouté : crédits Google Cloud (~260€) à évaluer, potentiellement urgent.
