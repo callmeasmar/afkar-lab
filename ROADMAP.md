@@ -10,13 +10,13 @@
 - ADR-0004 : architecture de connaissances v1 (vault existant + index SQLite FTS5)
 - `scripts/index-vault.py` — indexe research/learning/observatory, testé (16 notes, recherche full-text OK)
 - ADR-0005 : mémoire (agent = système auto Claude Code, contenu = ADR-0004)
+- ADR-0006 : infra & hébergement (même VPS qu'Orion, pas de backup vault.db)
 
 ## Ordre retenu pour la suite du backlog
 
-Mémoire (fait) → Infra & hébergement → Sécurité & secrets →
+Mémoire (fait) → Infra & hébergement (fait) → Sécurité & secrets →
 Automatisation → Interface/UX → Règle de promotion Lab→Core
-(logique de dépendances : fondations avant automatisation/UX construites dessus)
 
 ## TODO
 
-- Infra & hébergement (backlog #4)
+- Sécurité & secrets (backlog #7)

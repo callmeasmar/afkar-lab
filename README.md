@@ -24,7 +24,7 @@ tard, une fois le projet mûr (voir [ADR-0001](adr/0001-lab-et-core.md)).
 | Portabilité / reprise après reinstall | 🔄 1er jet fait | [disaster-recovery.md](docs/disaster-recovery.md) |
 | Architecture de connaissances | ✅ Fait | [ADR-0004](adr/0004-architecture-connaissances-v1.md) · `scripts/index-vault.py` |
 | Système de mémoire | ✅ Fait | [ADR-0005](adr/0005-memoire.md) |
-| Infrastructure & hébergement | ⬜ À faire | [backlog #4](docs/brainstorm-backlog.md#4-infrastructure--hébergement) |
+| Infrastructure & hébergement | ✅ Fait | [ADR-0006](adr/0006-infrastructure-hebergement.md) |
 | Automatisation | ⬜ À faire | [backlog #5](docs/brainstorm-backlog.md#5-automatisation--quand-et-comment) |
 | Interface / UX | ⬜ À faire | [backlog #6](docs/brainstorm-backlog.md#6-interface--ux-quotidienne) |
 | Sécurité & secrets | ⬜ À faire | [backlog #7](docs/brainstorm-backlog.md#7-sécurité--secrets) |

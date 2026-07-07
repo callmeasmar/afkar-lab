@@ -21,9 +21,9 @@ Ordre indicatif, pas figé.
 - [ ] Réévaluer si un besoin récurrent concret apparaît (veille répétée, review systématique)
 
 ## 4. Infrastructure & hébergement
-- [ ] Même VPS qu'Orion ou séparé ?
-- [ ] Politique de sauvegarde des données hors-git (secrets, DB locale)
-- [ ] Contraintes réelles (2 cœurs partagés)
+- [x] Décidé — voir [ADR-0006](../adr/0006-infrastructure-hebergement.md) :
+  même VPS qu'Orion (partagé), pas de backup de `data/vault.db`
+  (reconstruit à la demande)
 
 ## 5. Automatisation — quand et comment
 - [ ] Lister les tâches répétitives candidates
