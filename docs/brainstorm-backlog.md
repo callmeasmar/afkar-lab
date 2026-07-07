@@ -46,3 +46,52 @@ Ordre indicatif, pas figé.
 ## 9. Règle de promotion Lab → Core
 - [x] Décidé — voir [ADR-0010](../adr/0010-promotion-lab-core.md) et
   [promotion-checklist.md](promotion-checklist.md)
+
+---
+
+## Backlog v2 — approfondissement (2026-07-07)
+
+Le backlog initial (1-9) tranche l'architecture. Cette suite creuse plus
+loin : suivi dans le temps des décisions déjà prises, nouveaux domaines de
+contenu, et premier passage à l'action.
+
+## 10. LLMs
+- [ ] 10.1 Cartographier les providers actuels et leurs forces (Claude, GPT, Gemini, open-weights)
+- [ ] 10.2 Comparer les coûts pour un usage perso (tokens, contexte, cache)
+- [ ] 10.3 Matrice "quel modèle pour quelle tâche" (recherche / code / résumé / brainstorm)
+- [ ] 10.4 Décider si Afkar a besoin d'une politique de bascule multi-modèle
+  (comme `sm glm`/`sm claude` chez Orion) ou si un seul modèle suffit
+
+## 11. UX quotidienne (approfondissement ADR-0009)
+- [ ] 11.1 Observer les frictions réelles après un usage prolongé en CLI
+- [ ] 11.2 Étudier des inspirations d'interfaces agent/PKM existantes
+- [ ] 11.3 Ne redécider que si une friction concrète est constatée
+
+## 12. Observabilité (nouveau domaine)
+- [ ] 12.1 Définir ce qui vaut la peine d'être mesuré (nb de notes, fréquence d'usage, taille du vault)
+- [ ] 12.2 Décider si un rapport à la demande suffit (pas de dashboard, cf ADR-0009)
+- [ ] 12.3 Relier au rythme de l'observatoire (point 13)
+
+## 13. Observatoire — première vraie exécution
+- [ ] 13.1 Remplir une première entrée hebdo réelle (template existant, jamais utilisé)
+- [ ] 13.2 Décider du rythme réaliste (hebdo vs mensuel) selon la charge
+
+## 14. Idées futures — processus de tri
+- [ ] 14.1 Définir où atterrissent les idées non mûres (`research/future-ideas` existe déjà)
+- [ ] 14.2 Définir quand une idée devient un point de backlog officiel
+
+## 15. Sécurité — suivi dans le temps (approfondissement ADR-0007)
+- [ ] 15.1 Fréquence de revue périodique du repo (secrets oubliés)
+- [ ] 15.2 Procédure si un secret est accidentellement commité (rotation, purge d'historique git)
+
+## 16. Infrastructure — suivi dans le temps (approfondissement ADR-0006)
+- [ ] 16.1 Comment repérer si Afkar commence à peser sur les ressources partagées du VPS
+- [ ] 16.2 Seuil à partir duquel reconsidérer une infra séparée
+
+## 17. Automatisation — liste vivante des candidats (approfondissement ADR-0008)
+- [ ] 17.1 Tenir une liste des tâches répétées observées, pas encore automatisées
+- [ ] 17.2 Revue périodique : seuil des 3 répétitions atteint ou non
+
+## 18. Premier prototype réel
+- [ ] 18.1 Choisir quoi construire en premier dans `experiments/` pour tester le flux complet
+- [ ] 18.2 Définir le critère de succès avant de construire

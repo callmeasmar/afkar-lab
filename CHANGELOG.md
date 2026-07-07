@@ -22,3 +22,5 @@
 - Première vraie recherche sourcée : `research/knowledge/index.md`
   (FTS5 vs vectoriel) — valide ADR-0004, addendum ajouté avec chemin
   d'évolution (`sqlite-vec`) si besoin de rappel flou un jour.
+- Backlog v2 (points 10-18) : LLMs, UX, observabilité, observatoire,
+  idées futures, suivi sécurité/infra/automatisation, premier prototype.

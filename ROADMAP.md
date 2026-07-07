@@ -30,4 +30,4 @@
 
 ## TODO
 
-- Choisir le prochain sujet à creuser
+- Backlog v2 (points 10-18, `docs/brainstorm-backlog.md`) — choisir le prochain
