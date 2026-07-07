@@ -36,8 +36,8 @@ Ordre indicatif, pas figé.
 - [ ] Décider le MVP d'interaction
 
 ## 7. Sécurité & secrets
-- [ ] Politique de gestion des secrets (jamais en clair — règle héritée d'Orion)
-- [ ] Grille de décision avant tout nouvel outil (besoin réel, coût, dépendance, maintenance)
+- [x] Décidé — voir [ADR-0007](../adr/0007-securite-secrets.md) : pratiques
+  secrets formalisées + [tool-adoption-checklist.md](tool-adoption-checklist.md)
 
 ## 8. Portabilité / résilience
 - [x] Premier jet fait — voir [disaster-recovery.md](disaster-recovery.md)

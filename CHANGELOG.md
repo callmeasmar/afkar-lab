@@ -15,3 +15,4 @@
   construire), gap de portabilité noté dans disaster-recovery.md.
 - ADR-0006 (infra & hébergement) : même VPS qu'Orion, pas de backup de
   `data/vault.db` (reconstruit à la demande).
+- ADR-0007 (sécurité & secrets) + `docs/tool-adoption-checklist.md`.

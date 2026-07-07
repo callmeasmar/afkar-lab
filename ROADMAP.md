@@ -11,12 +11,13 @@
 - `scripts/index-vault.py` — indexe research/learning/observatory, testé (16 notes, recherche full-text OK)
 - ADR-0005 : mémoire (agent = système auto Claude Code, contenu = ADR-0004)
 - ADR-0006 : infra & hébergement (même VPS qu'Orion, pas de backup vault.db)
+- ADR-0007 : sécurité & secrets + tool-adoption-checklist.md
 
 ## Ordre retenu pour la suite du backlog
 
-Mémoire (fait) → Infra & hébergement (fait) → Sécurité & secrets →
+Mémoire (fait) → Infra & hébergement (fait) → Sécurité & secrets (fait) →
 Automatisation → Interface/UX → Règle de promotion Lab→Core
 
 ## TODO
 
-- Sécurité & secrets (backlog #7)
+- Automatisation (backlog #5)
