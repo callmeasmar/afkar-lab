@@ -97,13 +97,8 @@ contenu, et premier passage à l'action.
 - [ ] 18.2 Définir le critère de succès avant de construire
 
 ## 19. Crédits Google Cloud (~260€)
-- [ ] 19.1 Vérifier les modalités exactes (montant réel, date d'expiration,
-  services couverts/exclus — souvent limités dans le temps)
-- [ ] 19.2 Lister les usages pertinents pour Afkar (Vertex AI/Gemini API,
-  Cloud Storage pour backup du vault, Compute Engine, BigQuery pour l'observabilité #12...)
-- [ ] 19.3 Confronter à ADR-0006 (pas de nouveau service sans besoin réel) —
-  des crédits gratuits ne créent pas un besoin, ils changent juste le coût
-- [ ] 19.4 Décider un usage concret seulement si un vrai besoin déjà identifié
-  matche un service GCP, pas l'inverse ("on a des crédits donc on va s'en servir")
-- ⚠️ Urgence potentielle : si les crédits expirent, ce point doit être
-  priorisé avant qu'ils ne soient perdus — à vérifier en 19.1
+- [x] Décidé — voir [ADR-0011](../adr/0011-financement-credits-gcp.md) :
+  Claude Code routé via Vertex AI, financé par les crédits (expiration
+  ~88 jours depuis le 2026-07-07). GLM via Z.ai reste hors crédits GCP.
+- [ ] Reste à faire : finaliser l'auth GCP (projet, région, méthode) et
+  configurer `~/.claude/settings.json`

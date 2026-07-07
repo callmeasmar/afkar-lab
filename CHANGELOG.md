@@ -25,3 +25,5 @@
 - Backlog v2 (points 10-18) : LLMs, UX, observabilité, observatoire,
   idées futures, suivi sécurité/infra/automatisation, premier prototype.
 - Point 19 ajouté : crédits Google Cloud (~260€) à évaluer, potentiellement urgent.
+- ADR-0011 : Claude Code routé via Vertex AI pour consommer les crédits GCP
+  avant expiration ; GLM reste sur Z.ai (hors crédits).
