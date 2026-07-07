@@ -12,12 +12,17 @@
 - ADR-0005 : mémoire (agent = système auto Claude Code, contenu = ADR-0004)
 - ADR-0006 : infra & hébergement (même VPS qu'Orion, pas de backup vault.db)
 - ADR-0007 : sécurité & secrets + tool-adoption-checklist.md
+- ADR-0008 : automatisation (rien à automatiser maintenant, seuil défini)
+- ADR-0009 : interface/UX (Claude Code CLI uniquement)
+- ADR-0010 : règle de promotion Lab→Core + promotion-checklist.md
+- **Backlog de brainstorm initial (9 points) entièrement tranché.**
 
-## Ordre retenu pour la suite du backlog
+## À venir
 
-Mémoire (fait) → Infra & hébergement (fait) → Sécurité & secrets (fait) →
-Automatisation → Interface/UX → Règle de promotion Lab→Core
+- Premier prototype réel dans `experiments/` (ex: enrichir index-vault.py
+  avec un vrai usage, ou attaquer un sujet dans `research/`)
+- Nouveaux points de brainstorm à ajouter au backlog au fil de l'usage
 
 ## TODO
 
-- Automatisation (backlog #5)
+- Choisir le premier sujet concret à creuser (pas juste architectural)

@@ -26,14 +26,13 @@ Ordre indicatif, pas figé.
   (reconstruit à la demande)
 
 ## 5. Automatisation — quand et comment
-- [ ] Lister les tâches répétitives candidates
-- [ ] Étudier n8n existant (déjà utilisé par Orion) vs scripts simples
-- [ ] Définir le seuil "assez compris pour automatiser"
+- [x] Décidé — voir [ADR-0008](../adr/0008-automatisation.md) : aucune
+  tâche répétitive établie, rien à automatiser maintenant, seuil défini
+  pour l'avenir (3 répétitions manuelles + doc + checklist outil)
 
 ## 6. Interface / UX quotidienne
-- [ ] Lister les modes d'interaction possibles (CLI, dashboard web, chat)
-- [ ] Voir ce qu'Orion a déjà (dashboard existant)
-- [ ] Décider le MVP d'interaction
+- [x] Décidé — voir [ADR-0009](../adr/0009-interface-ux.md) : Claude Code
+  (CLI) uniquement, pas de dashboard dédié pour l'instant
 
 ## 7. Sécurité & secrets
 - [x] Décidé — voir [ADR-0007](../adr/0007-securite-secrets.md) : pratiques
@@ -45,5 +44,5 @@ Ordre indicatif, pas figé.
 - [ ] Lister précisément ce qui n'est PAS dans git (clés SSH, tokens MCP) et où c'est documenté
 
 ## 9. Règle de promotion Lab → Core
-- [ ] Définir des critères concrets et vérifiables (pas juste "quand c'est prêt")
-- [ ] Rédiger une checklist de promotion (doc propre + ADR + testé + revu)
+- [x] Décidé — voir [ADR-0010](../adr/0010-promotion-lab-core.md) et
+  [promotion-checklist.md](promotion-checklist.md)

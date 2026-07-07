@@ -16,3 +16,6 @@
 - ADR-0006 (infra & hébergement) : même VPS qu'Orion, pas de backup de
   `data/vault.db` (reconstruit à la demande).
 - ADR-0007 (sécurité & secrets) + `docs/tool-adoption-checklist.md`.
+- ADR-0008 (automatisation), ADR-0009 (interface/UX : CLI uniquement),
+  ADR-0010 (promotion Lab→Core) + `docs/promotion-checklist.md`.
+  Backlog de brainstorm initial (9 points) entièrement tranché.
