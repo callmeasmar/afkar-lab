@@ -19,3 +19,6 @@
 - ADR-0008 (automatisation), ADR-0009 (interface/UX : CLI uniquement),
   ADR-0010 (promotion Lab→Core) + `docs/promotion-checklist.md`.
   Backlog de brainstorm initial (9 points) entièrement tranché.
+- Première vraie recherche sourcée : `research/knowledge/index.md`
+  (FTS5 vs vectoriel) — valide ADR-0004, addendum ajouté avec chemin
+  d'évolution (`sqlite-vec`) si besoin de rappel flou un jour.

@@ -52,3 +52,16 @@ Analyse :
   "SELECT path, title FROM notes WHERE notes MATCH '...'"`.
 - Si le volume grossit fortement ou qu'un besoin de graphe apparaît,
   reconsidérer un vault Obsidian séparé + wikilinks (repasser par un ADR).
+
+## Addendum — recherche 2026-07-07 (validation du choix FTS5)
+
+Creusé dans `research/knowledge/index.md` : à l'échelle perso (10k-100k
+notes), SQLite/FTS5 reste plus rapide qu'une base vectorielle dédiée — le
+point de bascule est ~10M entrées. **Choix FTS5-only confirmé, pas
+seulement une intuition.**
+
+Nuance retenue : FTS5 gagne en précision (termes exacts), le vectoriel
+gagne en rappel flou ("je me souviens du concept, pas des mots"). Chemin
+d'évolution si ce besoin apparaît un jour : ajouter l'extension
+`sqlite-vec` au `vault.db` existant (même fichier, pas de nouveau
+service) — pas construit maintenant, aucune douleur constatée (16 notes).

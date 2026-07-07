@@ -17,12 +17,17 @@
 - ADR-0010 : règle de promotion Lab→Core + promotion-checklist.md
 - **Backlog de brainstorm initial (9 points) entièrement tranché.**
 
+## Fait (suite)
+
+- Première recherche sourcée : `research/knowledge/index.md` (FTS5 vs
+  vectoriel) — ADR-0004 validé par la recherche, chemin d'évolution noté
+  (`sqlite-vec`) si besoin de rappel flou
+
 ## À venir
 
-- Premier prototype réel dans `experiments/` (ex: enrichir index-vault.py
-  avec un vrai usage, ou attaquer un sujet dans `research/`)
-- Nouveaux points de brainstorm à ajouter au backlog au fil de l'usage
+- Nouveaux sujets de recherche au fil de l'usage (llms, ux, automation...)
+- Premier prototype réel dans `experiments/`
 
 ## TODO
 
-- Choisir le premier sujet concret à creuser (pas juste architectural)
+- Choisir le prochain sujet à creuser
