@@ -18,16 +18,16 @@ Checklist de reprise. Si relancé, lire ce fichier en premier.
 - [x] Commit `phase 1`
 
 ## Phase 2 — CLAUDE.md
-- [ ] CLAUDE.md racine créé
-- [ ] Commit `phase 2`
+- [x] CLAUDE.md racine créé
+- [x] Commit `phase 2`
 
 ## Phase 3 — GitHub
-- [ ] `gh` CLI absent sur ce VPS → pas de repo créé automatiquement.
+- [x] `gh` CLI absent sur ce VPS → pas de repo créé automatiquement.
       Commande à lancer manuellement une fois `gh` installé et authentifié :
       `cd ~/projects/afkar-lab && gh repo create afkar-lab --private --source . --push`
-- [ ] Commit `phase 3` (si changements)
+- [x] Commit `phase 3` : rien à committer (skip documenté en phase 1)
 
 ## Phase 4 — Observatoire
-- [ ] observatory/README.md + template-weekly.md
+- [x] observatory/README.md + template-weekly.md
 - [ ] Commit `phase 4`
 - [ ] Bootstrap terminé
