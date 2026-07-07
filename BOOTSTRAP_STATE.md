@@ -15,7 +15,7 @@ Checklist de reprise. Si relancé, lire ce fichier en premier.
 - [x] learning/ (4 stubs)
 - [x] stack/current-stack.md
 - [x] docs/architecture.md, ROADMAP.md, CHANGELOG.md
-- [ ] Commit `phase 1`
+- [x] Commit `phase 1`
 
 ## Phase 2 — CLAUDE.md
 - [ ] CLAUDE.md racine créé
