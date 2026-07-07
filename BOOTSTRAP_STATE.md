@@ -29,5 +29,5 @@ Checklist de reprise. Si relancé, lire ce fichier en premier.
 
 ## Phase 4 — Observatoire
 - [x] observatory/README.md + template-weekly.md
-- [ ] Commit `phase 4`
-- [ ] Bootstrap terminé
+- [x] Commit `phase 4`
+- [x] Bootstrap terminé
