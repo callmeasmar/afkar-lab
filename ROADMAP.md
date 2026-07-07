@@ -7,12 +7,13 @@
 - ADR-0003 : décision agents/outils (aucun agent dédié pour l'instant)
 - Backlog de brainstorm structuré (voir `docs/brainstorm-backlog.md`)
 - Procédure de reprise après réinstallation (`docs/disaster-recovery.md`)
+- ADR-0004 : architecture de connaissances v1 (vault existant + index SQLite FTS5)
+- `scripts/index-vault.py` — indexe research/learning/observatory, testé (16 notes, recherche full-text OK)
 
 ## À venir
 
-- Attaquer le backlog de brainstorm point par point (`docs/brainstorm-backlog.md`)
-- Premier prototype dans `experiments/` une fois un point du backlog tranché
+- Attaquer les points restants du backlog (`docs/brainstorm-backlog.md`)
 
 ## TODO
 
-- Prioriser quel point du backlog attaquer en premier
+- Prioriser quel point du backlog attaquer ensuite

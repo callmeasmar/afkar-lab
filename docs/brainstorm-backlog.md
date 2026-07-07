@@ -5,10 +5,10 @@ flux : comprendre → rechercher → comparer → documenter → décider (ADR).
 Ordre indicatif, pas figé.
 
 ## 1. Architecture de connaissances
-- [ ] Étudier options (fichiers .md, SQLite+FTS, vector DB, Notion API, hybride)
-- [ ] Définir critères (portabilité, coût, résistance à une réinstall complète)
-- [ ] Prototyper un cas d'usage réel dans `experiments/`
-- [ ] Décider + ADR
+- [x] Décidé — voir [ADR-0004](../adr/0004-architecture-connaissances-v1.md) :
+  vault = `research/`+`learning/`+`observatory/` (déjà existant), index
+  local SQLite `FTS5` via `scripts/index-vault.py`
+- [ ] Réévaluer si le volume grossit fortement ou qu'un besoin de graphe/liens apparaît
 
 ## 2. Système de mémoire (agent + perso)
 - [ ] Voir ce qu'Orion utilise déjà (MCP `memory`, `sqlite`) — réutilisable ?

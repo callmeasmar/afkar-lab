@@ -22,7 +22,7 @@ tard, une fois le projet mûr (voir [ADR-0001](adr/0001-lab-et-core.md)).
 | Push GitHub | ✅ Fait | `callmeasmar/afkar-lab` (privé) |
 | Écosystème agents/outils | 🔄 Décidé, à réévaluer | [ADR-0003](adr/0003-agents-et-outils.md) |
 | Portabilité / reprise après reinstall | 🔄 1er jet fait | [disaster-recovery.md](docs/disaster-recovery.md) |
-| Architecture de connaissances | ⬜ À faire | [backlog #1](docs/brainstorm-backlog.md#1-architecture-de-connaissances) |
+| Architecture de connaissances | ✅ Fait | [ADR-0004](adr/0004-architecture-connaissances-v1.md) · `scripts/index-vault.py` |
 | Système de mémoire | ⬜ À faire | [backlog #2](docs/brainstorm-backlog.md#2-système-de-mémoire-agent--perso) |
 | Infrastructure & hébergement | ⬜ À faire | [backlog #4](docs/brainstorm-backlog.md#4-infrastructure--hébergement) |
 | Automatisation | ⬜ À faire | [backlog #5](docs/brainstorm-backlog.md#5-automatisation--quand-et-comment) |
